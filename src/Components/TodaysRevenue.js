@@ -58,7 +58,7 @@ export default function TodaysRevenue() {
   }, []);
   return (
     <>
-      <div className="container mt-1 py-5 todaysRevenueWidth">
+      <div className="container mt-1 py-5 todaysRevenueWidth min-w-448">
         <div className="row">
           <div className="col-lg-2 col-sm-0"></div>
           <div className="col-lg-4 col-sm-12 p-1 d-flex justify-content-center "><h2 className='text-danger'>Today's Total Revenue :</h2></div>
@@ -66,7 +66,7 @@ export default function TodaysRevenue() {
           <div className="col-lg-3 col-sm-0"></div>
         </div>
       </div>
-      <div className="container">
+      <div className="container min-w-448">
         <h1 className=''>Today's Sales</h1>
         <table className="table table-dark mt-4 border border-light">
           <thead>

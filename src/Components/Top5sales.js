@@ -34,7 +34,7 @@ export default function Top5sales() {
 
   return (
     <>
-      <div className="container mt-5">
+      <div className="container mt-5 min-w-448">
         <h1 className=''>Top 5 Sales</h1>
         <table className="table table-dark mt-4 border border-light">
           <thead>

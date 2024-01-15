@@ -44,7 +44,7 @@ export default function AddSales() {
 
   return (
     <>
-      <div className="container mt-5">
+      <div className="container mt-5 border border-danger min-w-448">
         <div className="row">
           <div className=" col-lg-3 col-sm-0"></div>
           <div className=" col-lg-6 col-sm-12 mini-container">
