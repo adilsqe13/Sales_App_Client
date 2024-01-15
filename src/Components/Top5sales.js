@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import {useNavigate} from 'react-router-dom';
 
 export default function Top5sales() {
+  const apiUrl = process.env.REACT_APP_API_URL;
   const token = localStorage.getItem('token');
   const navigate = useNavigate();
   const [top5Sales, setTop5Sales] = useState([]);

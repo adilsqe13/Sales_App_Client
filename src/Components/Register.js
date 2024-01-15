@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import saleContext from '../Context/saleContext';
 
 export default function Register() {
+  const apiUrl = process.env.REACT_APP_API_URL;
   const navigate = useNavigate();
   const context = useContext(saleContext);
   const { showAlert } = context;

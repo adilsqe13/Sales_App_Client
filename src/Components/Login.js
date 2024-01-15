@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import saleContext from '../Context/saleContext';
 
 export default function Login() {
+  const apiUrl = process.env.REACT_APP_API_URL;
   const context = useContext(saleContext);
   const { showAlert } = context;
   const [credentials, setCredentials] = useState({ email: '', password: '' });
