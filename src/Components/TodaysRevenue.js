@@ -71,7 +71,7 @@ export default function TodaysRevenue() {
         <table className="table table-dark mt-4 border border-light">
           <thead>
             <tr>
-              <th scope="col">SL NO.</th>
+              {/* <th scope="col">SL NO.</th> */}
               <th scope="col">Date</th>
               <th scope="col">Sales Id</th>
               <th scope="col">Product Name</th>
@@ -82,7 +82,7 @@ export default function TodaysRevenue() {
           <tbody>
             {todaysSales.map((item, index) => (
               <tr key={item._id}>
-                <th scope="row">{index + 1}</th>
+                {/* <th scope="row">{index + 1}</th> */}
                 <td>{item.date.slice(0,10)}</td>
                 <td>{item._id.slice(18, 24)}</td>
                 <td>{item.productName}</td>

@@ -17,11 +17,11 @@
 
 .navbar {
     background-color: rgb(38, 38, 38);
-    min-width: 446px;
+    min-width: 360px;
 }
 
 .todaysRevenueWidth {
-    min-width: 446px;
+    min-width: 360px;
 }
 
 .logo-sales-app {
@@ -117,6 +117,9 @@ input::-webkit-inner-spin-button {
 .logout-link:hover {
     text-decoration: underline;
 }
+.min-w-448{
+    min-width: 360px;
+}
 
 @media only screen and (min-width: 992px) {
     .logout-btn {
@@ -129,6 +132,8 @@ input::-webkit-inner-spin-button {
         display: none;
     }
 }
-.min-w-448{
-    min-width: 445px;
-}
+/* @media only screen and (min-width: 417px) {
+    .dna417 {
+        display: none;
+    }
+} */

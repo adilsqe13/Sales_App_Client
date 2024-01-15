@@ -34,12 +34,12 @@ export default function Top5sales() {
 
   return (
     <>
-      <div className="container mt-5 min-w-448">
+      <div className="container mt-5 min-w-448 ">
         <h1 className=''>Top 5 Sales</h1>
         <table className="table table-dark mt-4 border border-light">
           <thead>
             <tr>
-              <th scope="col">SL NO.</th>
+              {/* <th scope="col dna417">SL NO.</th> */}
               <th scope="col">Date</th>
               <th scope="col">Sales Id</th>
               <th scope="col">Product Name</th>
@@ -50,7 +50,7 @@ export default function Top5sales() {
           <tbody>
             {top5Sales.map((item, index) => (
               <tr key={item._id}>
-                <th scope="row">{index + 1}</th>
+                {/* <th scope="row">{index + 1}</th> */}
                 <td>{item.date.slice(0,10)}</td>
                 <td>{item._id.slice(18, 24)}</td>
                 <td>{item.productName}</td>
